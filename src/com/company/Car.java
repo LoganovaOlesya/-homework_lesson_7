@@ -12,13 +12,13 @@ public class Car extends TransportOnEarth {
         System.out.println("beep-beep");
     }
 
-    public class Tesla extends Car {
+    public static class Tesla extends Car {
         public void makeASignal() {
             System.out.println("I'm just like Elon Musk!");
         }
     }
 
-    public class DaewooMatiz extends Car {
+    public static class DaewooMatiz extends Car {
 
     }
 }

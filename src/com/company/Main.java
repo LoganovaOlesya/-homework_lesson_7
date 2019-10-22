@@ -25,7 +25,8 @@ public class Main {
         Bycile bycile = new Bycile();
         Moped moped = new Moped();
         Car car = new Car();
-        Car.Tesla = new Car.Tesla();
+
+        Car.Tesla tesla = new Car.Tesla();
 
 
         System.out.println("Hey gorgeous wanna ride?" +
